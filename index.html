@@ -1,10 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
   <title>Charitech</title>
 </head>
 <body>
-  Hackers at Cambridge are running a charity hackathon on the 17th March
+    <div class="container">
+        <div class="row">
+            <div class="col s6 m4 center-align">
+                <div class="card-content">
+                    <iframe src="http://free.timeanddate.com/countdown/i5mknyo5/n1234/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn2/fs100/szw448/szh189/iso2017-03-17T10:00:00" allowTransparency="true" frameborder="0" width="304" height="26"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card" id="schedule">
+            <div class="card-content">
+              <span class="card-title">Schedule</span>
+              <ul>
+                <li id="t1000">10:00 Arrival</li>
+                <li id="t1030">10:30 LT1 Presentations from our Charities begin!</li>
+                <li id ="t1200">12:00 Lunch</li>
+                <li id ="t1800">18:00 Dinner</li>
+                <li id ="t2000">20:00 Stop Hacking!</li>
+                <li id ="t2110">21:10 LT1 Prizes and wrap-up</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Social</span>
+              <p>
+                <!--
+                <a class="twitter-timeline"  href="https://twitter.com/hashtag/charitech" data-widget-id="803287500106121216"></a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                -->
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col s12 m8">
+          <div class="card" id="links">
+            <div class="card-content">
+              <span class="card-title">ChariTech Links</span>
+              <ul>
+
+                <li>Submit your project!
+                        <a href="https://gamegig.devpost.com/" target="_blank">Devpost is not currently correct</a>
+                </li>
+                <li>Get Involved
+                  <a href="https://facebook.com/hackersatcambridge" target="_blank">Facebook Page</a>
+                  <a href="https://www.facebook.com/events/1844767679086308/" target="_blank" >Facebook Event</a>
+                  <a href="https://twitter.com/hackersatcam" target="_blank">Twitter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card" >
+            <div class="card-content" id="bulletlist">
+              <span class="card-title">ChariTech Rules</span>
+              <p>
+                The aim of ChariTech is to create something original for charity which can really make an impact. We've set out some rules to help the event go more smoothly for everyone.
+              </p>
+              <ul>
+                <li>
+                  Please respect and look after the Computer Lab. Note that <span class="emphasis">no food or drinks are permitted in the Intel Laboratory</span>, and we will be checking!
+                </li>
+                <li>
+                  You can work on your game in a team of up to four people.
+                </li>
+                <li>
+                  Hacking commences at 10.45 and finishes at 20:00.
+                </li>
+                <!--
+                <li>
+                  You must submit your game using the link on this page at the end of the Game Gig.
+                </li>
+                -->
+                <li>
+                  You are free to use any tools or libraries available to you to create your product. You can start with any pre-existing code or content that you like and you are free to use third-party assets, as long as you let the judges know what you created yourself and what you didn't. <span class="emphasis">Failure to do so could risk disqualification.</span>
+                </li>
+                <li>
+                  It's your responsibilty to make sure that you have the right to use third-party assets (for example, that they are public domain or available under an appropriate license).
+                </li>
+                <li>
+                  Be kind and considerate to your fellow hackers and our volunteers. We're all here to have fun! By participating in the hackathon, you agree to abide by <a href="https://hackcodeofconduct.org/" target="_blank">this Code of Conduct</a>.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
 </body>
 </html>
