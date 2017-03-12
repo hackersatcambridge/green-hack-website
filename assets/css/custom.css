@@ -1,14 +1,4 @@
 ﻿
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% Free To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
-    ========================================================  */
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
@@ -66,6 +56,7 @@ border-top: 1px solid #000;
 .navbar-toggle {
     margin-bottom: 30px;
 }
+
 #nav-wrapper {
 left: 0;
 width: 100%;
@@ -80,7 +71,7 @@ background-color: #ffffff;
 transition: all 0.3s ease-in-out;
 }
 /* =============================================================
-   HOME/VEDIO SECTION STYLES
+   HOME SECTION STYLES
  ============================================================ */
 #home-sec {
     height:400px;
@@ -91,7 +82,8 @@ transition: all 0.3s ease-in-out;
     #home-sec .overlay {
         background-image: url("../img/back.png");
         min-height:400px;
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        background-position: center;
     }
     #home-sec h1 {
         padding-top:80px;
