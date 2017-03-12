@@ -1,0 +1,66 @@
+body{
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main-logo{
+    max-width: 100%;
+    max-height: 400px;
+}
+#time-container{
+    color: white;
+}
+
+#big-timer{
+    font-weight: 200;
+    font-size: 10vw;
+    text-align: center;
+    vertical-align: top;
+
+}
+#seconds{
+    font-size: 50%;
+    vertical-align:super;
+}
+#schedule li{
+    list-style-type: circle !important;
+    margin-left: 20px;
+}
+#schedule .active{
+    font-weight: bold !important;
+    list-style-type: disc !important;
+}
+#links a{
+    display: block;
+    font-size: 120%;
+    margin-top:-8px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    color: #fb8c00;
+}
+#links a:hover{
+    color: #ffa726;
+}
+#nav-mobile img{
+    padding:0;
+    margin:0;
+    max-height: 100%;
+}
+#nav-mobile a{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 64px;
+}
+nav {
+    height:64px !important;
+}
+
+#bulletlist li{
+    list-style-type: disc !important;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.emphasis{
+    font-weight: bold;
+}
