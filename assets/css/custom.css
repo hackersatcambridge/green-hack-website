@@ -148,41 +148,8 @@ ul#filters {
 		cursor: pointer;
 		font-size: 18px;
 	}
- 	#port-folio .portfolio-item {
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-o-box-sizing: border-box;
-		width: 100%;		
-		float:left;
-		overflow:hidden;
-        display:none;
 	}
-/* =============================================================
-   PRICE SECTION STYLES
- ============================================================ */
 
-#price-sec {
-    background-color:#e1e1e1;
-}
-
-.price-div {
-    background-color:#fff;
-    padding:20px;
-    margin:5px;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
-}
-.price-cls {
-    font-size:60px;
-    font-weight:900;
-    color:#f00;
-    padding-right:20px;
-}
-
-#price-sec .media-heading {
-    padding-top:20px;
-}
 /* =============================================================
    CONTACT SECTION STYLES
  ============================================================ */
