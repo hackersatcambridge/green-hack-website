@@ -2,12 +2,15 @@
 /* =============================================================
    GENERAL STYLES
    ============================================================ */
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   padding-bottom:72px;
   color: #362922;
   line-height: 2em;
-  font-size: 18px;
+  font-size: 16px;
 }
 .basic-set {
   padding-top:50px;
@@ -21,6 +24,15 @@ body {
   text-transform:uppercase;
   font-weight:500;
   letter-spacing: 0.3em;
+}
+.subheading {
+  font-family: 'Montserrat', sans-serif;
+  color: #57492b;
+  padding-bottom:60px;
+  text-transform:uppercase;
+  font-weight:500;
+  letter-spacing: 0.3em;
+  padding-bottom: 0;
 }
 .head-line span {
   color:#000;
@@ -48,6 +60,26 @@ body {
   max-width: 65%;
   margin-bottom: 1.5em;
 }
+
+.dark {
+  background: #F9F6E9;
+}
+
+.charity {
+  padding: 3em 0;
+}
+.charity p {
+  padding-bottom: 2em;
+}
+.charities {
+}
+
+.boxed-block {
+  border: 3px solid #F9F6E9;
+  background: #FDFFF6;
+  padding: 1em;
+  margin-bottom: 1em;
+}
 /* =============================================================
    NAVBAR STYLES
    =========================================================== */
@@ -71,7 +103,8 @@ header {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color:#f00;
+  color:#EBC27B;
+  cursor: pointer;
 }
 .navbar-inverse .navbar-nav > li > a {
   color:#fff;
@@ -98,6 +131,28 @@ header {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.schedule-list {
+  width: 70%;
+  margin: 0 auto;
+}
+.schedule-list li {
+  list-style: none;
+  text-align: left;
+  font-size: 1.2em;
+}
+.schedule-time {
+  display: inline-block;
+  width: 4em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-right: 1em;
+  text-align: right;
+}
+.padded-container {
+  padding: 1em;
 }
 /* =============================================================
    HOME SECTION STYLES
