@@ -147,7 +147,7 @@ header {
   text-align: left;
   font-size: 1.2em;
 }
-.schedule-time {
+.schedule-time, .schedule-padding {
   display: inline-block;
   width: 4em;
   font-family: 'Montserrat', sans-serif;
@@ -156,6 +156,11 @@ header {
   padding-right: 1em;
   text-align: right;
 }
+
+.active {
+  font-weight: 700;
+}
+
 .padded-container {
   padding: 1em;
 }
@@ -193,7 +198,7 @@ header {
    SCHEDULE STYLES
    =====================================================*/
 
-   #schedule {
+#schedule {
   padding-top: 10px; 
   min-height:550px;
 }
