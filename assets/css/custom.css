@@ -58,6 +58,7 @@ body {
 .sponsor-logo {
   width: 13em;
   max-width: 65%;
+  max-height: 11em;
   margin-bottom: 1.5em;
 }
 
