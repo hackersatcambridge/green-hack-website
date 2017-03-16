@@ -1,61 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang = "en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+        <title>ChariTech - Hackers at Cambridge</title>
+        <link rel="icon" href="assets/img/icon.png">
+        <!-- BOOTSTRAP CORE STYLE CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- Font-Awesome Icons Styles -->
+        <link href="assets/css/font-awesome.css" rel="stylesheet" />
+        <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+        <link href="assets/css/custom.css" rel="stylesheet" />    
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      </head>
+      <body>
 
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#ffffff" />
-
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-  <title>ChariTech</title>
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col s6 m4 center-align">
-                <div class="card-content">
-                    <iframe src="http://free.timeanddate.com/countdown/i5mknyo5/n1234/cf11/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn2/fs100/szw448/szh189/iso2017-03-17T10:00:00" allowTransparency="true" frameborder="0" width="304" height="26"></iframe>
-                </div>
+        <div id="nav-wrapper" >
+         <div class="navbar navbar-inverse " >
+          <div class="container">
+            <div class="navbar-header ">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="#"><img src="assets/img/design.png" width = "200" height = "70"></a>
             </div>
-        </div>
-    </div>
-
-<div class="container">
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="card" id="schedule">
-            <div class="card-content">
-              <span class="card-title">Schedule</span>
-              <ul>
-                <li id="t1000">10:00 Arrival</li>
-                <li id="t1030">10:30 LT1 Presentations from our Charities begin!</li>
-                <li id ="t1200">12:30 Lunch</li>
-                <li id ="t1800">18:00 Dinner</li>
-                <li id ="t2000">20:00 Stop Hacking!</li>
-                <li id ="t2110">21:10 LT1 Prizes and wrap-up</li>
+            <div class="navbar-collapse collapse move-me">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home-sec">Home</a></li>
+                <li><a href="#projects-sec">Potential Projects</a></li>
+                <li><a href="#schedule-sec">Event Schedule</a></li>
+                <li><a href="#rules-sec">ChariTech Rules</a></li>
+                <li><a href="#contact-sec">Contact</a></li>
               </ul>
             </div>
+
           </div>
-
-
-          <!-- <div class="card">
-            <div class="card-content">
-              <span class="card-title">Social</span>
-              <p>
-                <a class="twitter-timeline"  href="https://twitter.com/hashtag/charitech" data-widget-id="803287500106121216"></a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </p>
-            </div>
-          </div> -->
-
         </div>
+      </div>
+      
+      <header>
+          <div class="row text-center">
+            <div class="col-md-12">
+              <img src="assets/img/charitech_transparent.png" class="header-image">
+            </div>
+          </div>
+    </header>
+
+    <section>
+      
+    </section>
+
+    <!-- HOME/VEDIO SECTION END-->
+    <section id="projects-sec"  >
+
+
+      <div class="container basic-set center">
+        <h3 class="head-line">The Projects</h3>
+        <div class="text-container center">
+          Our partnering charities have offered up a set of challenges for you to solve. Below you'll see some of the things you might be buildling during ChariTech (of course, you're welcome to go rogue if you have a great idea with impact).
+        </div>
+      </div>
+      
+      <div>
+        <section class="text-container">
+          <div class="center"><img src="assets/img/madanyu.png" alt="Mandanyu Education" class="sponsor-logo"/></div>
+          <p>
+            Materials Science lacks fun games that can be used at secondary schools across the world. We would like to inspire the next generation of designers and engineers for materials with a game that balances materials against performance criteria. The challenge is to come up with a JS game that encourages students to select the best materials to design conventional products such as basketballs, cricket bats, etc. We will provide a list of 100 materials data and an idea on how we visualised the game as starting point, with the expectation that the guys at ChariTech will convert the idea into their own. Interested participants have the opportunity to apply for a paid Summer Internship in Cambridge with our partner Granta Design.<br><br>
+
+            A key enabler for Madanyu is to have open-source lesson plans which teachers can use in developing countries in class and jointly with our volunteers can improve on over time. For this we seek a github solution for lesson plans, that hosts and version controls markdown lesson plans and can be shown in full spec via a browser. The challenge is to develop a minimal working solution that takes markdown lesson-plans from github and shows them to teachers and students to interact and help guide their learning in class. We will provide references to existing solutions to kick-start this process. Interested participants are invited to become a volunteer at Madanyu over this Summer and see the solution at schools in developing countries been tested live and further improved.
+          </p>
+        </section>
+      </div>
+
+      <div>
+        <section class="text-container">
+          <div class="center"><img src="assets/img/simprints.png" alt="Simprints" class="sponsor-logo"/></div>
+          <p>
+            Once in the hands of a frontline worker, Simprints enables real time identification of beneficiaries. However, to truly
+            maximise our impact we need to put actionable data into the hands of frontline workers, managers, and policy makers to
+            drive fundamental improvements in the delivery of healthcare, education, and aid distribution. Can you build an easily
+            extensible data portal that plugs into a Firebase real time database?
+            <br>
+            Fingerprint extraction<br>
+            Extraction is the detection of the unique points on a finger, called minutiae. There can be are anywhere between 20-80
+            minutiae on a finger. Given a training set of fingerprint images, can you build a robust extraction algorithm? How will it
+            fare against our increasingly difficult test set? Bonus points if you can classify the fingerprint as a loop, whorl or arch.
+          </p>
+        </section>
+      </div>
+    </section>
+    <!-- PROJECTS SECTION END-->
+    <section id="Just-text"   >
+      <div class="container mid-txt" >
+        <div class="row text-center">
+          <div class="col-md-12">
+            It's all about the hacking life!
+<!-- =======
         <div class="col s12 m8">
           <div class="card" >
             <div class="card-content">
@@ -150,44 +199,162 @@
                 </li>
               </ul>
             </div>
-          </div>
-
-          <div class="card" >
-            <div class="card-content" id="bulletlist">
-              <span class="card-title">ChariTech Rules</span>
-              <p>
-                The aim of ChariTech is to create something original for charity which can really make an impact. We've set out some rules to help the event go more smoothly for everyone.
-              </p>
-              <ul>
-                <li>
-                  Please respect and look after the Computer Lab. Note that <span class="emphasis">no food or drinks are permitted in the Intel Laboratory</span>, and we will be checking!
-                </li>
-                <li>
-                  You can work on your game in a team of up to four people.
-                </li>
-                <li>
-                  Hacking commences at 10.45 and finishes at 20:00.
-                </li>
-                <!--
-                <li>
-                  You must submit your game using the link on this page at the end of the Game Gig.
-                </li>
-                -->
-                <li>
-                  You are free to use any tools or libraries available to you to create your product. You can start with any pre-existing code or content that you like and you are free to use third-party assets, as long as you let the judges know what you created yourself and what you didn't. <span class="emphasis">Failure to do so could risk disqualification.</span>
-                </li>
-                <li>
-                  It's your responsibilty to make sure that you have the right to use third-party assets (for example, that they are public domain or available under an appropriate license).
-                </li>
-                <li>
-                  Be kind and considerate to your fellow hackers and our volunteers. We're all here to have fun! By participating in the hackathon, you agree to abide by <a href="https://hackcodeofconduct.org/" target="_blank">this Code of Conduct</a>.
-                </li>
-              </ul>
-            </div>
+>>>>>>> a84136bd8cae64f0c969dd665462999def36f8fb -->
           </div>
         </div>
       </div>
+
+    </section>
+    <!-- JUST TEXT SECTION END-->
+    <section id="schedule-sec"   >
+
+
+      <div class="container basic-set" >
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h3 class="head-line" style="padding-bottom:10px;">SCHEDULE</h3>
+
+          </div>
+          <div class="col-md-12">
+            <ul class="media-list">
+              <li class="media">
+
+                <div class="media-body">
+                  <p style = "font-size: 140%;">
+                    <br/>
+                    10:00 Arrival<br>
+                    10:30 LT1 Presentations from our Charities begin!<br>
+                    12:00 Lunch<br>
+                    18:00 Dinner<br>
+                    20:00 Stop Hacking!<br>
+                    21:10 LT1 Prizes and wrap-up
+                  </p>
+                </div>  
+              </li>                   
+            </ul>                    
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- SCHEDULE  SECTION END-->
+    <section id="Just-text"   >
+      <div class="container mid-txt" >
+        <div class="row text-center">
+          <div class="col-md-12">
+            All fair and square in programming
+          </div>
+        </div>
       </div>
 
-</body>
-</html>
+    </section>
+    <section id="rules-sec"    >
+
+      <div class="container basic-set">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h3 class="head-line">CHARITECH RULES</h3>
+
+          </div>
+        </div>
+        <div class="row ">
+          <ul class="media-list">
+            <li class="media">
+
+              <div class="media-body">
+                <p>
+                  The aim of ChariTech is to create something original for charity which can really make an impact. We've set out some rules to help the event go more smoothly for everyone.
+                </p>
+                <ul>
+                  <li>
+                    Please respect and look after the Computer Lab. Note that <span class="emphasis">no food or drinks are permitted in the Intel Laboratory</span>, and we will be checking!
+                  </li>
+                  <li>  
+                    You can work on your game in a team of up to four people.
+                  </li>
+                  <li>
+                    Hacking commences at 10.45 and finishes at 20:00.
+                  </li>                
+                  <li>
+                    You are free to use any tools or libraries available to you to create your product. You can start with any pre-existing code or content that you like and you are free to use third-party assets, as long as you let the judges know what you created yourself and what you didn't. <span class="emphasis">Failure to do so could risk disqualification.</span>
+                  </li>
+                  <li>
+                    It's your responsibilty to make sure that you have the right to use third-party assets (for example, that they are public domain or available under an appropriate license).
+                  </li>
+                  <li>
+                    Be kind and considerate to your fellow hackers and our volunteers. We're all here to have fun! By participating in the hackathon, you agree to abide by <a href="https://hackcodeofconduct.org/" target="_blank">this Code of Conduct</a>.
+                  </li>
+                </ul>
+              </div>  
+            </li>                   
+
+          </ul>                                            
+        </div>
+      </section>
+      <!-- RULES  SECTION END-->
+      <section id="contact-sec"  >
+        <div class="overlay">           
+          <div class=" basic-set">
+            <div class="row " >
+              <div class="col-md-4 col-sm-4" >
+                <h3>Charitech Location</h3>
+                <br/>
+                <h4>William Gates Building, 15 J.J. Thomson Ave, Cambridge CB3 0FD</h4>
+                <h4>Cambridge, Cambridgeshire</h4>
+                <h4>United Kingdom</h4>
+                <br/>
+                <strong>E-mail :</strong> team@hackersatcambridge.com
+                <br/><br/>
+              </div>
+              <div class="col-md-4 col-sm-4">
+               <h3>We Are Social</h3>
+               <div class="social">
+                <a href="https://www.facebook.com/hackersatcambridge/" style="background-color:#3b5998;"><i class="fa fa-facebook-square " ></i>  Facebook </a>
+                <a href="https://twitter.com/hackersatcam" style="background-color:#55acee;"><i class="fa fa-twitter-square " ></i>  Twitter </a>
+              </div>
+              <h6> Drop us a message at any point, regarding the hackathon of just general Hackers at Cambridge matters! </h6>
+
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 subscribe"  >
+
+             <h2 >REGISTER FOR CHARITECH HERE</h2>
+             <br/>
+             <p>
+               If you haven't already, you can register for the hackathon now. <br>
+               The button below will redirect you to the event page on EventBrite.
+             </p>
+
+             <hr />
+             <br/>
+             <div class="form-group">
+               <a href="https://www.eventbrite.co.uk/e/charitech-tickets-32356981603?aff=es2" class="btn btn-primary btn-lg btn-block black-btn"> REGISTER FOR CHARITECH </a> 
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- CONTACT  SECTION END-->
+
+   <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+   <!-- CORE JQUERY  -->
+   <script src="assets/js/jquery-1.11.1.js"></script>
+   <!-- BOOTSTRAP SCRIPTS  -->
+   <script src="assets/js/bootstrap.js"></script>
+   <!-- EASING SCROLL SCRIPTS PLUGIN  -->
+   <script src="assets/js/jquery.easing.min.js"></script>
+   <!-- VEDIO SCRIPT SCRIPTS  -->
+   <script src="assets/js/jquery.mb.YTPlayer.js"></script>
+   <!-- PRETTY PHOTO SCRIPTS  -->
+   <script src="assets/js/jquery.prettyPhoto.js"></script>
+   <!-- PORTFOLIO FILTER SCRIPTS  -->
+   <script src="assets/js/jquery.mixitup.min.js"></script>
+
+   <!-- CUSTOM SCRIPTS  -->
+   <script src="assets/js/custom.js"></script>
+
+ </body>
+ </html>
