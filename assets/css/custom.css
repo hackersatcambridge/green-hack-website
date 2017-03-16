@@ -1,191 +1,203 @@
 ﻿
 /* =============================================================
    GENERAL STYLES
- ============================================================ */
+   ============================================================ */
 body {
-    font-family: 'Open Sans', sans-serif;
-    padding-bottom:72px;
-   
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom:72px;
+  color: #362922;
+  line-height: 2em;
+  font-size: 18px;
 }
 .basic-set {
-    padding-top:50px;
-    padding-bottom:80px;
-    font-size:18px;
+  padding-top:50px;
+  padding-bottom:80px;
 }
 .head-line {
-    font-size:30px;
-    color:#f00;
-    padding-bottom:60px;
-    text-transform:uppercase;
-    font-weight:800;
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.2em;
+  color: #57492b;
+  padding-bottom:60px;
+  text-transform:uppercase;
+  font-weight:500;
+  letter-spacing: 0.3em;
 }
-    .head-line span {
-        color:#000;
-    }
+.head-line span {
+  color:#000;
+}
 .black-btn {
-    background-color: #000000;
-    border-color: #FF0000;
+  background-color: #000000;
+  border-color: #FF0000;
 }
-    .black-btn:hover {
-        background-color: #000000;
-        border-color: #FF0000;
-    }
+.black-btn:hover {
+  background-color: #000000;
+  border-color: #FF0000;
+}
+
+.text-container {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.sponsor-logo {
+  width: 13em;
+  max-width: 65%;
+  margin-bottom: 1.5em;
+}
 /* =============================================================
    NAVBAR STYLES
- =========================================================== */
+   =========================================================== */
+
+header {
+  background: #eee0ac;
+  background-image: url('../img/texture.png');
+  background-size: 390px;
+  background-repeat: repeat;
+}
 
 .navbar {
-border-radius: 0px;
-margin-bottom: 0px;
-border: 0px solid transparent;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
 }
 
 .navbar-inverse {
-    background-color: #0E0E0E;
-border-top: 1px solid #000;
+  background-color: #0E0E0E;
+  border-top: 1px solid #000;
 }
 
-    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-        color:#f00;
-    }
-    .navbar-inverse .navbar-nav > li > a {
-        color:#fff;
-        font-size:16px;
-        padding:30px 20px;
-    }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color:#f00;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color:#fff;
+  font-size:16px;
+  padding:30px 20px;
+}
 .navbar-toggle {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.header-image {
+  height: 20em;
 }
 
 #nav-wrapper {
-left: 0;
-width: 100%;
-z-index: 999;
-bottom:0px;
-position: fixed;
-background-color: #ffffff;
--webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  bottom:0px;
+  position: fixed;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 /* =============================================================
    HOME SECTION STYLES
- ============================================================ */
-#home-sec {
-    height:400px;
-    color:#fff;
-    text-align:center;
-    border-bottom:4px solid #000;
+   ============================================================ */
+   #home-sec {
+  height:10em;
+  color:#fff;
+  text-align:center;
 }
-    #home-sec .overlay {
-        background-image: url("../img/back.png");
-        min-height:400px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    #home-sec h1 {
-        padding-top:80px;
-        font-size:50px;
-        font-weight:900;
-        padding-bottom:30px;
-    }
-        #home-sec h1 i {
-            color:#f00;
-        }
 /* =============================================================
    SERVICES SECTION STYLES
- ============================================================ */
-.txt-block {
-    padding-bottom:30px;
+   ============================================================ */
+   .txt-block {
+  padding-bottom:30px;
 }
 
 
 /* =============================================================
    JUST TEXT SECTION STYLES
- ============================================================ */
-#Just-text {
-      background-color:#000;
-}
-.mid-txt {
-    padding-top:40px;
-    padding-bottom:40px;
-    font-size:30px;
-    font-weight:900;
-    color:#fff;
+   ============================================================ */
+   #Just-text {
+    background-color:#000;
+  }
+  .mid-txt {
+  padding-top:40px;
+  padding-bottom:40px;
+  font-size:30px;
+  font-weight:900;
+  color:#fff;
 }
 
 /*==========================================
    SCHEDULE STYLES
-    =====================================================*/
+   =====================================================*/
 
-#schedule {
-    padding-top: 10px; 
-    min-height:550px;
+   #schedule {
+  padding-top: 10px; 
+  min-height:550px;
 }
 
 /*==========================================
    SCHEDULE FILTER STYLES
-    =====================================================*/
-ul#filters {
-	padding: 0px;
+   =====================================================*/
+   ul#filters {
+   padding: 0px;
+ }
+ #filters {
+   margin: 3% 0;
+   padding: 0;
+   list-style: none;
+   text-align: center;
+ }
+ #filters li {
+  display: -webkit-inline-box;
 }
-#filters {
-	margin: 3% 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
+#filters li span {
+  display: block;
+  padding: 5px 4px;
+  text-decoration: none;
+  color: #d51111;
+  cursor: pointer;
+  font-size: 18px;
 }
-	#filters li {
-		display: -webkit-inline-box;
-	}
-	#filters li span {
-		display: block;
-		padding: 5px 4px;
-		text-decoration: none;
-		color: #d51111;
-		cursor: pointer;
-		font-size: 18px;
-	}
-	}
+}
 
 /* =============================================================
    CONTACT SECTION STYLES
- ============================================================ */
+   ============================================================ */
 #contact-sec {
-    background-image: url("../img/contact.jpg");
-    background-repeat: no-repeat;
-    background-position: center 0;
-    background-size: cover;
-    -webkit-background-size: cover;
-    color:#fff;
+  background-image: url("../img/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  color:#fff;
 }
-    #contact-sec .overlay {
-        background-color:rgba(0, 0, 0, 0.5);
-        min-height: 500px;
-
-    }
-    #contact-sec .social {
-        padding-top:30px;
-    }
+#contact-sec .overlay {
+  background-color:rgba(0, 0, 0, 0.5);
+  min-height: 500px;
+}
+#contact-sec .social {
+  padding-top:30px;
+}
 #contact-sec .social a {
-    font-size:25px; 
-    padding:10px 30px;
-    text-decoration:none;
-    color:#fff;
-    display:block;
-    max-width:200px;
-    margin-bottom:20px;
+  font-size:25px; 
+  padding:10px 30px;
+  text-decoration:none;
+  color:#fff;
+  display:block;
+  max-width:200px;
+  margin-bottom:20px;
 }
 #contact-sec .subscribe {
-    padding-top:30px;
-    background-color:#000;
-    color:#fff;
-    height:100%;
+  padding-top:30px;
+  background-color:#000;
+  color:#fff;
+  height:100%;
 }
 
-    #contact-sec h2 {
-        font-weight:900;
-        color:#f00;
-    }
+#contact-sec h2 {
+  font-weight:900;
+  color:#f00;
+}
