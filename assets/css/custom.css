@@ -120,6 +120,10 @@ header {
   height: 20em;
 }
 
+.header-image-small {
+  height: 8em;
+}
+
 #nav-wrapper {
   left: 0;
   width: 100%;
