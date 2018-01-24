@@ -8,7 +8,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
-        <title>ChariTech - Hackers at Cambridge</title>
+        <title>Green Hack - Hackers at Cambridge</title>
         <link rel="icon" href="assets/img/icon.png">
         <!-- BOOTSTRAP CORE STYLE CSS -->
         <link href="assets/css/bootstrap.css" rel="stylesheet"/>
@@ -35,9 +35,9 @@
             <div class="navbar-collapse collapse move-me">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#home-sec">Home</a></li>
-                <li><a href="#projects-sec">Potential Projects</a></li>
+                <li><a href="#projects-sec">Projects</a></li>
                 <li><a href="#schedule-sec">Event Schedule</a></li>
-                <li><a href="#rules-sec">ChariTech Rules</a></li>
+                <li><a href="#rules-sec">Green Hack Rules</a></li>
                 <li><a href="teams.html">Teams</a></li>
                 <li><a href="#contact-sec">Contact</a></li>
               </ul>
@@ -56,7 +56,7 @@
       <section id="projects-sec" class="padded-container dark">
         <div class="center">
           <div class="text-container center">
-            <a href="https://www.hackersatcambridge.com" target="_blank">Hackers at Cambridge</a> presents the hackathon aimed at helping out charities. Innovate, develop, have fun!
+            <a href="https://www.hackersatcambridge.com" target="_blank">Hackers at Cambridge</a> presents the hackathon aimed at tackling issues around sustainability. Innovate, develop, have fun!
             <div id="time-container" class="col s8">
               <p>Hacking time remaining:</p>
               <h1 id="big-timer">
@@ -72,137 +72,44 @@
         <div class="center">
           <h3 class="head-line">The Projects</h3>
           <div class="text-container center">
-            Our partnering charities have offered up a set of challenges for you to solve. Below you'll see some of the things you might be buildling during ChariTech (of course, you're welcome to go rogue if you have a great idea with impact).
+            Our partners have offered up a set of challenges for you to solve. Below you'll see some of the things you might be buildling during Green Hack (of course, you're welcome to go rogue if you have a great idea with impact).
           </div>
         </div>
 
         <div class="charities">
           <section class="text-container charity">
-            <div class="center"><img src="assets/img/madanyu.png" alt="Mandanyu Education" class="sponsor-logo"/></div>
-            <h4 class="subheading">About the cause</h4>
-            <p>
-              Since its launch in 2014, Madanyu has been committed to facilitate computer based education in the most remote settings of the world with the use of low-cost and low-power computing solutions.
+            <h3>Manufacturer Lifecycle Measurer</h3>
+            <h4 class="subheading">What's the problem?</h3>
+            <p>Have you ever bought a product, only to discover that after a few months it has broken? Today, there is an emerging trend for products to be designed to last only a year or so.<br>
+              For example: the proportion of large household appliances which were replaced within less than five years due to a defect increased from 3.5% to 8.3% between 2004 and 2013 - <a href="https://www.umweltbundesamt.de/en/press/pressinformation/lifetime-of-electrical-appliances-becoming-shorter">source</a> <br>
+              The issue is more deeply rooted than just costing consumers money, it also creates a huge strain on the environment.<br>
+              Every year an estimated 2 million tonnes of Waste Electrical Electronic Equipment (WEEE) items are discarded by householders and companies in the UKs - <a href="http://www.hse.gov.uk/waste/waste-electrical.htm">source</a><br>
+              <a href="http://www.europarl.europa.eu/RegData/etudes/STUD/2016/579000/IPOL_STU(2016)579000_EN.pdf">A Longer Lifetime for Products: Benefits for Consumers and Companies</a>
             </p>
-            <h4 class="subheading">Project challenges</h4>
+            <h4 class="subheading">What's the project</h4>
+              <section>
+                This problem is more prominent with some companies products than others. We want to expose who the good and bad people are in this space.<br>
+                You are welcome to tackle this issue in whatever way you feel is suitable, but we are proposing that you build an app or website that will allow a user to record item manufacturers when they are discarded.<br>
+                A typical workflow could be:
+                <ul>
+                  <li>A user takes a picture of an item that they are about to throw away</li>
+                  <li>They enter a rough date they bought it</li>
+                  <li>The app will then use ML/AI/whatever tech is appropriate, to work out the manufacturer, product category and corresponding lifespan</li>
+                </ul>
+                This data could be used to build up a view of how long certain brands last. You can also think about new ways in which to portray this data to a user.
+              </section>
             <section class="boxed-block">
-              <b>Interactive Material Science game</b>.
-              Materials Science lacks fun games that can be used at secondary schools across the world. We would like to inspire the next generation of designers and engineers for materials with a game that balances materials against performance criteria. The challenge is to come up with a JS game that encourages students to select the best materials to design conventional products such as basketballs, cricket bats, etc. We will provide a list of 100 materials data and an idea on how we visualised the game as starting point, with the expectation that the guys at ChariTech will convert the idea into their own. Interested participants have the opportunity to apply for a paid Summer Internship in Cambridge with our partner Granta Design.
-            </section>
-            <section class="boxed-block">
-              <b>Open source lesson plan system</b>.
-              A key enabler for Madanyu is to have open-source lesson plans which teachers can use in developing countries in class and jointly with our volunteers can improve on over time. For this we seek a github solution for lesson plans, that hosts and version controls markdown lesson plans and can be shown in full spec via a browser. The challenge is to develop a minimal working solution that takes markdown lesson-plans from github and shows them to teachers and students to interact and help guide their learning in class. We will provide references to existing solutions to kick-start this process. Interested participants are invited to become a volunteer at Madanyu over this Summer and see the solution at schools in developing countries been tested live and further improved.
+              <b>Technical resources</b><br>
+              Here are some notes about technology you may wish to use..
+              <ul>
+                <li>Users are unlikely to plan for throwing away items often. Therefore it is unlikely that they will download an app like this. Perhaps a website would be better?</li>
+                <li>APIs exist which allow you to do Optical Character Recognition which would allow you read product codes.</li>
+                <li>It may be useful to use a <a href="https://www.scandit.com/upc-lookup/">UPC lookup</a> in order to determine information about a product.</li>
+                <li>You could use Machine Learning in order to determine the item that a user is scanning and then suggest a category.</li>
+              </ul>
             </section>
           </section>
-
-          <section class="text-container charity">
-            <div class="center"><img src="assets/img/simprints.png" alt="Simprints" class="sponsor-logo"/></div>
-            <h4 class="subheading">About the cause</h4>
-            <p>
-              Simprints are building open source software and biometric hardware to empower mobile tools used by researchers, NGOs, and governments fighting poverty around the world.
-            </p>
-            <h4 class="subheading">Project challenges</h4>
-            <section class="boxed-block">
-              <b>Data portal</b>
-              Once in the hands of a frontline worker, Simprints enables real time identification of beneficiaries. However, to truly
-              maximise our impact we need to put actionable data into the hands of frontline workers, managers, and policy makers to
-              drive fundamental improvements in the delivery of healthcare, education, and aid distribution. Can you build an easily
-              extensible data portal that plugs into a Firebase real time database?
-            </section>
-            <section class="boxed-block">
-              <b>Fingerprint extraction</b>
-                Extraction is the detection of the unique points on a finger, called minutiae. There can be are anywhere between 20-80
-              minutiae on a finger. Given a training set of fingerprint images, can you build a robust extraction algorithm? How will it
-              fare against our increasingly difficult test set? Bonus points if you can classify the fingerprint as a loop, whorl or arch.
-            </section>
-          </section>
-          <section class="text-container charity">
-            <div class="center"><img src="assets/img/against_malaria_foundation.svg" alt="The Against Malaria Foundation" class="sponsor-logo"/></div>
-            <h4 class="subheading">About the cause</h4>
-            <p>
-              The Against Malaria Foundation is a charity which funds anti-malaria nets and works with distribution partners to ensure these nets are delivered and used. The AMF has a big focus on transparency when it comes to donations – each donor is tied to their donation and also the location of the nets which their donation has bought. This information is publicly available online.
-            </p>
-            <h4 class="subheading">Project Challenges</h4>
-            <p>
-              In the following challenges it is worth considering platforms which can give notifications to a user to update them on the status of their donation/fundraising competition.
-            </p>
-            <section class="boxed-block">
-              <b>Donation Portal</b>. 
-              We want you to think about the ways in which this data can be brought to life and the ways in which this could provide an incentive for people to continue their donations. This may take the form of an app which you log into, and which keeps track of your donations and displays them on a map. The app could also be extendable such that other charities can sign up and make use of this platform.
-              <br>
-              It is very important that security is taken seriously. Although all donations to the AMF are available online for the public to see, this app would keep track of all the donations tied to a specific person. This poses issues if someone were able to gain access to this information and see spending patterns/anonymous donations etc. Your solution should try to get around this issue by making use of logins, encryption or any other suitable method.
-              <br>
-              A csv of sample data can be found <a href="assets/amf_donations.csv" download>here</a>.
-            </section>
-            <section class="boxed-block">
-              <b>Fundraising Competitions</b>. 
-              In the past, the AMF have run different fundraising competitions such as ‘March Madness’ and ‘The Big Varsity Match 2017’ where teams have competed to raise the most money for their fundraising pages.
-              <br>
-              A useful platform would be one which could allow these events to be put on more easily, and which would update donation information/statistics/visualisations in real time. This would help not only the AMF, but also other charities, put on these events in the future and involve more people in doing so.
-            </section>
-          </section>
-          <section class="text-container charity">
-            <div class="center"><img src="assets/img/the_cambridge_commons.png" alt="The Cambridge Commons" class="sponsor-logo"/></div>
-            <h4 class="subheading">About the cause</h4>
-            <p>
-              The Cambridge Commons are affiliated to the Equality Trust and exist to increase equality and social justice locally in Cambridge (a very unequal city!) and nationally in the UK.  They have a major new initiative called “Imagine” running for 16 months – “Imagine a better and more equal UK in 2027”.  “Imagine” is not just another social movement tackling one issue.  It aims to build a holistic view of the country we want to live in, in 2027.
-            </p>
-            <h4 class="subheading">Project Challenges</h4>
-            <section class="boxed-block">
-              <b>Imagine Audience Platform</b>. 
-              We need to create a platform to automatically identify individuals and organisations who would be interested in the specific themes we will hold events on (e.g. education or taxation or housing) or the 'Imagine' programme as a whole (both as attendees, and routes to attendees).<br>
-
-                  Challenges to consider:
-                  <ul>
-                    <li>Finding good data, and the best ways to utilise it</li>
-                    <li>Distinguishing, e.g.: 'office of tax collection' (irrelevant) from 'society for tax reform' (relevant)</li>
-                    <li> Making it possible to automate as much of the contact as possible, at least for individuals likely to be interested</li>
-                  </ul> 
-            </section>
-          </section>
-          <section class="text-container charity">
-            <div class="center"><img src="assets/img/slate_2_learn.png" alt="Slate2Learn" class="sponsor-logo"/></div>
-            <h4 class="subheading">About the cause</h4>
-            <p>
-              Slate2Learn runs a microfranchise of low-cost digital learning centres in Delhi, for after-schooltuitions. Each centre is located in the tutors’ home and equipped with 10 android tablets and araspberry pi server. Children come once a day to learn for 40 mn on a tablet, using Slate2Learnadaptive learning programme.We offer English language courses for class 1 and 2 at present.Each centre can cater to up to 100 children.We have 3 centres running in southern suburbs of Delhi since January 2017.Data generated in the centres is sent once a day to our cloud database, with the goal ofmonitoring centres remotely.
-            </p>
-            <h4 class="subheading">Project Challenges</h4>
-            <section class="boxed-block">
-              <b>Slate2Learn Dashboard</b>. 
-              To create a dashboard that allows visualization in real time of data generated in Slate2Learn learning centres. Slate2Learn wants to use the data collected in the centres to identify problems with centres, and even their causes, in order to solve them quickly but also single out centres that perform verywell to identify and replicate best practices.
-              <br>
-              There are 3 sets of metrics that we need to monitor: business data, admin/management data, and learning data. The frontend technology used to create the dashboard is at the discretion of the team. Centre data will be provided to teams in JSON format, or CSV. There is a possibility for teams with a prior knowledge of Django to work on the backend of the API.
-              <br>
-              <b>For more information about this project, see <a target="_blank" href="assets/slate2learn_dashboard.pdf">this document</a></b>
-            </section>
-          </section>
-          <section class="text-container charity">
-            <div class="center">Seigo Robinson</div>
-            <h4 class="subheading">About the person</h4>
-            <p>
-              Seigo was an organiser of a recent hackathon focussed on open source technologies. He is coming ChariTech to set some of the challenges from this hackathon for you to have a go at.
-            </p>
-            <h4 class="subheading">Project Challenges</h4>
-            <section class="boxed-block">
-              <b>Efficient Reuse</b>. 
-              The aim of the challenge to take an initial prototype app that aims to promote reuse of household items and develop the user stories and other relevant specifications for developers to take the app to Minimum Viable Product (MVP) stage. With this, funding can be sought to bring the MVP to reality and begin piloting.
-              <br>
-              See <a href="http://community.oscedays.org/t/challenge-user-test-a-prototype-app-to-promote-reuse-of-household-items/5063">here</a>. 
-              <br>
-              This was done for me in another hackathon and the Github is here: <a href="https://github.com/JMurphyWeb/onpurposehack">https://github.com/JMurphyWeb/onpurposehack</a>
-            </section>
-            <section class="boxed-block">
-              <b>Circular Economy</b>. 
-              This is about looping products within a regenerative/restorative industrial economy through reuse, sharing, remanufacturing, repair, refurbishment, and if needs be recycling. So circular economy organisations are those doing these types of activity.
-              <br>
-              Cambridge Carbon Footprint runs Circular Cambridge (promoting circular economy in Cambridge) and built out a map of repair shops, reuse shops e.g. charity shops, etc. 
-              <br>
-              I took this and added to it including allotments etc. as part of an Open Source Circular Economy days push to create Action Protocols - almost a recipe book for doing something in your local area. I've been a little slow but my intention is to put a page up there to show people how to replicate the idea of creating a local circular economy map. That way people can quickly look up circular organisations doing repair, reuse, refurbishment, maintenance, recycling centres, etc. and thus help transition us from a take, make and throw away culture. The current open source map is <a href="http://umap.openstreetmap.fr/en/map/cambridge-circular-economy_111418#11/52.2017/0.2101">here</a>.
-              <br>
-              So the challenge: is it possible to replicate this type of map but potentially more automated / globally. Could your boffins for example scrape addresses from relevant organisations e.g. Timpsons website, Emmaus website, charity shops to donate to and buy from, recycling centres from council website, Furniture Reuse Network, etc. and plot them on this map. Hopefully, relatively quickly, this will become a real asset to folk. It also has the ability to help disadvantaged folk access lower priced items - say you're long term unemployed and your washing machine just packed up, if you could go to this directory and find somewhere to get one cheap or free then that is really helping someone in a bind.
-              <br>
-              <img src="assets/img/circular_economy.png" alt="Circular Economy Diagram" />
-            </section>
-          </section>
+          
         </div>
       </section>
       <!-- PROJECTS SECTION END-->
@@ -212,7 +119,7 @@
             <h3 class="head-line">Schedule</h3>
             <ul class="schedule-list">
               <li><span class="schedule-time">10:00</span> Arrival</li>
-              <li><span class="schedule-time">10:15</span> LT1 Presentations from our Charities begin!</li>
+              <li><span class="schedule-time">10:15</span> Presentations from our Partners begin!</li>
               <li><span class="schedule-time">10:45</span> Hacking Begins</li>
               <li><span class="schedule-time">12:00</span> Lunch</li>
               <li><span class="schedule-padding">|</span></li>
@@ -222,7 +129,7 @@
               <li><span class="schedule-padding">|</span></li>
               <li><span class="schedule-time">20:00</span> Stop Hacking!</li>
               <li><span class="schedule-time">20:05</span> Judging Begins!</li>
-              <li><span class="schedule-time">21:10</span> LT1 Prizes and wrap-up</li>
+              <li><span class="schedule-time">21:10</span> Prizes and wrap-up</li>
             </ul>
         </div>
       </div>
@@ -232,15 +139,15 @@
 
       <div class="container basic-set">
         <div class="text-center">
-            <h3 class="head-line">Charitech Rules</h3>
+            <h3 class="head-line">Green Hack Rules</h3>
         </div>
         <div class="row ">
           <p>
-            The aim of ChariTech is to create something original for charity which can really make an impact. We've set out some rules to help the event go more smoothly for everyone.
+            The aim of Green Hack is to create something original which can really make an impact in the field of sustainability. We've set out some rules to help the event go more smoothly for everyone.
           </p>
           <ul>
             <li>
-              Please respect and look after the Computer Lab. Note that <span class="emphasis">no food or drinks are permitted in the Intel Laboratory</span>, and we will be checking!
+              Please respect and look after the Venue. Note that <span class="emphasis">no food or drinks are permitted in the Venue</span>, and we will be checking!
             </li>
             <li>  
               You can work on your project in a team of up to four people.
@@ -267,12 +174,12 @@
           <div class="basic-set">
             <div class="row ">
               <div class="col-sm-6">
-                <h3>Charitech Location</h3>
+                <h3>Green Hack Location</h3>
                 <br/>
-                William Gates Building, 15 J.J. Thomson Ave, <br>
-                Cambridge CB3 0FD <br>
-                Cambridgeshire <br>
-                United Kingdom <br>
+                Engineering Department <br>
+                Trumpington Street <br>
+                Cambridge <br>
+                CB2 1PZ <br>
                 <br/>
                 <strong>E-mail :</strong> <a href="mailto:team@hackersatcambridge.com">team@hackersatcambridge.com</a>
                 <br/><br/>
