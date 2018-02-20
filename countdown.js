@@ -1,5 +1,5 @@
-const dateStart = new Date(2017, 2, 17, 10, 45, 0)
-const dateEnd = new Date(2017, 2, 17, 20, 0, 0)
+const dateStart = new Date(2018, 3, 10, 10, 45, 0)
+const dateEnd = new Date(2018, 3, 10, 20, 0, 0)
 function setTimeRemaining () {
   const current = new Date()
   let timeLeft = 0
