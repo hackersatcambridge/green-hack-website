@@ -12,6 +12,9 @@ body {
   line-height: 2em;
   font-size: 16px;
 }
+h3 {
+  font-size: 35px;
+}
 .basic-set {
   padding-top:50px;
   padding-bottom:80px;
@@ -20,7 +23,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size:1.2em;
   color: #57492b;
-  padding-bottom:60px;
+  padding-bottom:0.5em;
   text-transform:uppercase;
   font-weight:500;
   letter-spacing: 0.3em;
@@ -45,12 +48,13 @@ body {
   background-color: #000000;
   border-color: #FF0000;
 }
-
 .text-container {
   max-width: 50em;
   margin: 0 auto;
 }
-
+.hack-idea{
+  margin-top: 4em;
+}
 .center {
   text-align: center;
 }
@@ -72,8 +76,6 @@ body {
 .charity p {
   padding-bottom: 2em;
 }
-.charities {
-}
 
 .boxed-block {
   border: 3px solid #F9F6E9;
@@ -85,6 +87,7 @@ body {
 .boxed-block img {
   max-width:100%;
 }
+
 /* =============================================================
    NAVBAR STYLES
    =========================================================== */
