@@ -14,6 +14,12 @@ body {
 }
 h3 {
   font-size: 35px;
+  margin-right: 4em;
+  margin-left: 0.5em;
+}
+i {
+  width:1em;
+  text-align: center;
 }
 .basic-set {
   padding-top:50px;
