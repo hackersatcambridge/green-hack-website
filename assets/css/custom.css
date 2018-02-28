@@ -14,8 +14,10 @@ body {
 }
 h3 {
   font-size: 35px;
-  margin-right: 4em;
-  margin-left: 0.5em;
+  margin: 10px 4em 10px 0.5em;
+}
+h4 {
+  margin-top: 20px;
 }
 i {
   width:1em;
@@ -62,7 +64,7 @@ i {
   margin-top: 1em;
 }
 .accordion {
-    background-color: #eee;
+    background-color: #F9F6E9;
     color: #444;
     cursor: pointer;
     padding: 10px;
@@ -74,7 +76,7 @@ i {
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #F9F6E9;
 }
 /* Style the accordion panel. Note: hidden by default */
 .collapsible-panel {
