@@ -126,7 +126,7 @@ i {
 header {
   background: #eee0ac;
   background-image: url('../img/texture.png');
-  background-size: 390px;
+  background-size: cover;
   background-repeat: repeat;
   padding: 2em;
 }
