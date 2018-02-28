@@ -12,7 +12,7 @@ body {
   line-height: 2em;
   font-size: 16px;
 }
-h3 {
+.accordion > h3 {
   font-size: 35px;
   margin: 10px 4em 10px 0.5em;
 }
