@@ -13,7 +13,7 @@ body {
   font-size: 16px;
 }
 .accordion > h3 {
-  font-size: 35px;
+  font-size: 25px;
   margin: 10px 4em 10px 0.5em;
 }
 h4 {
@@ -29,7 +29,7 @@ i {
 }
 .head-line {
   font-family: 'Montserrat', sans-serif;
-  font-size:1.2em;
+  font-size:1.5em;
   color: #57492b;
   padding-bottom:0.5em;
   text-transform:uppercase;
@@ -64,7 +64,6 @@ i {
   margin-top: 1em;
 }
 .accordion {
-    background-color: #F9F6E9;
     color: #444;
     cursor: pointer;
     padding: 10px;
@@ -76,7 +75,7 @@ i {
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-    background-color: #F9F6E9;
+    background-color: #EEEEEE;
 }
 /* Style the accordion panel. Note: hidden by default */
 .collapsible-panel {
