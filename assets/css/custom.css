@@ -57,8 +57,19 @@ i {
   border-color: #FF0000;
 }
 .text-container {
+  text-emphasis: center;
   max-width: 50em;
   margin: 0 auto;
+}
+img.project-logo {
+  width:100%;
+  max-width: 20em;
+  vertical-align: middle;
+  margin: 20px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
 }
 .hack-idea{
   margin-top: 1em;
